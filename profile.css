@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: rgb(244 157 251);
+}
+main {
+  width: 100%;
+}
+header {
+  margin: 60px auto;
+  font-weight: 700;
+}
+h1 {
+  margin-bottom: 10px;
+  color: white;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/*
+.btn {
+  height: 50px;
+  background-color: black;
+  color: yellow;
+} */
+button {
+  width: 90%;
+  padding: 20px;
+  margin-top: 17px;
+  background-color: rgb(253, 219, 255);
+  border: 0px;
+  box-shadow: 5px 5px 0 black;
+}
+
+img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+}
+
+.icons {
+  margin: 30px auto;
+  font-size: 25px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: rgb(27, 1, 29);
+  font-size: 16px;
+}
+.fa-brands {
+  height: 50px;
+  width: 50px;
+  padding: 13px;
+  margin: 5px, 40px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(253, 219, 255);
+  font-weight: 700;
+}
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
